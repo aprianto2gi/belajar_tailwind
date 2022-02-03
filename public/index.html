@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <title>Coba Tailwind</title>
+    <style type="text/tailwindcss"> 
+        /* jika pakai tailwindcss cdn. tp klo pakai file download setting ke style.css */
+        *{
+            border: 1px solid red;
+        }
+    </style>
+    <script> //jika pakai tailwindcss cdn. tp klo pakai file download setting ke tailwindcss.config.js
+        tailwind.config = {
+          theme: {
+            extend: {
+              fontFamily:{
+                  inter:['Inter']
+              }
+            }
+          }
+        }
+    </script>
+</head>
+<body>
+    <h1 class="text-center text-4xl font-bold my-10 text-blue-500">Daftar WO</h1>
+    <section class="mb-10">
+        <a href="" class="bg-green-500 p-3 text-white inline-block m-3 hover:bg-green-600">Tambah</a>
+        <p class="bg-yellow-200 m-3 p-4 py-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate temporibus velit libero placeat adipisci doloremque, laboriosam quo! Fugiat repudiandae eos quaerat tempore dolorem laborum exercitationem? Delectus ea animi itaque deleniti.</p>
+    </section>
+
+    <h1>Daftar Pekerjaan Yang Masih Dikerjakan</h1>
+    <section class="mb-10">
+        <h2>Spacing</h2>
+        <div class="m-12">Margin</div>
+        <div class="py-8">Padding</div>
+    </section>
+
+    <section class="mb-10">
+        <h2>Sizing</h2>
+        <div class="w-32 h-32">Kontak 1</div>        
+    </section>
+
+    <section class="mb-10 max-w-3xl mx-auto">
+        <h2 class="mb-2 font-inter text-3xl font-bold">Daftar Pekerjaan yang selesai</h2>
+        <div class="md-4">By. <a href="#" class="text-gray-600 font-semibold underline">Togi Aprianto</a>, 3 Feb 2022</div>
+        <p class="mb-4 font-serif font-bold text-emerald-400">Lorem ipsum, <a href="#" class="underline font-semibold text-blue-500">dolor sit amet</a> consectetur adipisicing elit. Qui enim quod neque possimus, distinctio illo at minus sunt, corrupti necessitatibus veritatis deleniti, debitis tempore nobis excepturi. Illo earum corrupti laboriosam.</p>
+        <p class="mb-4 font-mono font-thin text-xl text-zinc-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, natus porro laboriosam iste placeat maxime fugiat repudiandae fuga vero quos voluptatum quae aliquid in iure, recusandae possimus expedita id voluptates?</p>
+        <p class="mb-4 font-inter italic">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem ex, quae facere sit harum amet eveniet suscipit illum natus optio unde expedita error corporis mollitia repellat alias inventore non enim?</p>
+    </section>
+</body>
+</html>
