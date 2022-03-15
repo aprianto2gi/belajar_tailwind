@@ -18,15 +18,15 @@
         }
     </style>
     <script> //jika pakai tailwindcss cdn. tp klo pakai file download setting ke tailwindcss.config.js
-        tailwind.config = {
-          theme: {
-            extend: {
-              fontFamily:{
-                  inter:['Inter']
-              }
-            }
-          }
-        }
+        // tailwind.config = {
+        //   theme: {
+        //     extend: {
+        //       fontFamily:{
+        //           inter:['Inter']
+        //       }
+        //     }
+        //   }
+        // }
     </script>
 </head>
 <body class="dark:bg-slate-800 dark:text-slate-200">
@@ -143,7 +143,112 @@
     <img src="https://source.unsplash.com/600x400" alt="" class="mb-4">
 </div>
 
+<hr class="my-24 border-t-4">
+
+<div class="container px-6 font-inter max-w-md mx-auto sm:bg-red-200 md:bg-transparent lg:bg-sky-300 xl:bg-yellow-200 sm:max-w-xl md:max-w-5xl md:text-6xl xl:flex xl:max-w-full xl:p-0">
+    <div class="xl:p-12 xl:flex-1">
+        <h3 class="text-4xl font-bold text-slate-800 sm:text-5xl">MT<span class="text-sky-500">a</span></h3>
+    
+        <img class="mt-4 rounded-xl shadow-xl sm:mt-6 sm:h-64 sm:w-full sm:object-cover sm:object-center xl:hidden" src="../public/img/media.jpg" alt="norway">
+        
+        <h2 class="mt-6 text-2xl font-semibold text-slate-700 sm:mt-8 sm:text-4xl sm:w-full sm:object-cover">Tailwindcss</h2>
+        
+        <p class="mt-2 text-slate-500 sm:mt-4 sm:text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet veritatis totam mollitia odio deserunt eius ut eum magnam architecto fuga quidem dolores quae laboriosam tempore odit adipisci ab quis numquam!</p>
+        
+        <div class="mt-4 sm:mt-6">
+            <a href="#" class="inline-block px-5 py-3 bg-red-600 rounded-lg text-white uppercase tracking-wider text-sm font-semibold sm:text-base">Subscribe</a>
+        </div>
+
+    </div>
+    <div class="hidden xl:flex xl:w-1/2">
+        <img src="../public/img/media.jpg" alt="norwey" class="object-cover rounded-l-full">
+    </div> 
+
+</div>
+
+<div class="mt-24 mb-10 text-center font-bold text-3xl text-slate-700">My Gallery</div>
+<div class="container mx-auto px-6 font-inter sm:flex sm:flex-wrap sm:gap-6 sm:justify-evenly">
+    <div class="rounded-md shadow-lg overflow-hidden mb-10 sm:w-64 md:w-80 sm:mb-0 lg:w-72">
+        <img src="./img/donat.jpg" alt="gallery" class="w-full">
+        <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2 text-slate-700">Image title</div>
+            <p class="text-sm text-slate500
+            ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </div>
+    <div class="rounded-md shadow-lg overflow-hidden mb-10 sm:w-64 md:w-80 sm:mb-0 lg:w-72">
+        <img src="./img/donat.jpg" alt="gallery" class="w-full">
+        <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2 text-slate-700">Image title</div>
+            <p class="text-sm text-slate500
+            ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </div>
+    <div class="rounded-md shadow-lg overflow-hidden mb-10 sm:w-64 md:w-80 sm:mb-0 lg:w-72">
+        <img src="./img/donat.jpg" alt="gallery" class="w-full">
+        <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2 text-slate-700">Image title</div>
+            <p class="text-sm text-slate500
+            ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </div>
+    <div class="rounded-md shadow-lg overflow-hidden mb-10 sm:w-64 md:w-80 sm:mb-0 lg:w-72">
+        <img src="./img/donat.jpg" alt="gallery" class="w-full">
+        <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2 text-slate-700">Image title</div>
+            <p class="text-sm text-slate500
+            ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </div>
+    <div class="rounded-md shadow-lg overflow-hidden mb-10 sm:w-64 md:w-80 sm:mb-0 lg:w-72">
+        <img src="./img/donat.jpg" alt="gallery" class="w-full">
+        <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2 text-slate-700">Image title</div>
+            <p class="text-sm text-slate500
+            ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </div>
+</div>
+
+<div class="mt-64 p-2 font-inter grid grid-cols-2 gap-2 md:grid-cols-4 md:gap-4 md:p-4">
+    <h2 class="h-15 text-xl font-semibold text-slate-700 md:col-start-4 md:row-start-2 md:flex"><span class="self-center">welcome to mta</span></h2>
+    <div class="h-15 text-lg font-bold text-slate-600 md:col-start-2 md:row-start-2 md:flex"><span class="self-end">@togiaprianto</span></div>
+
+    <div class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden group relative hover:scale-90 transition-all duration:500">
+        <div class="w-full h-full bg-[url('/public/img/grid/1.jpeg')] bg-center bg-cover absolute group-hover:rotate-12 group-hover:scale-125 transition-all duration:500"></div>
+    </div>
+    <div class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden md:col-start-3 group relative hover:scale-90 transition-all duration:500">
+        <div class="w-full h-full bg-[url('/public/img/grid/2.jpeg')] bg-center bg-cover absolute group-hover:rotate-12 group-hover:scale-125 transition-all duration:500"></div>
+    </div>
+    <div class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden group relative hover:scale-90 transition-all duration:500">
+        <div class="w-full h-full bg-[url('/public/img/grid/3.jpeg')] bg-center bg-cover absolute group-hover:rotate-12 group-hover:scale-125 transition-all duration:500"></div>
+    </div>
+    <div class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden group relative hover:scale-90 transition-all duration:500">
+        <div class="w-full h-full bg-[url('/public/img/grid/4.jpeg')] bg-center bg-cover absolute group-hover:rotate-12 group-hover:scale-125 transition-all duration:500"></div>
+    </div>
+    <div class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden group relative hover:scale-90 transition-all duration:500">
+        <div class="w-full h-full bg-[url('/public/img/grid/5.jpeg')] bg-center bg-cover absolute group-hover:rotate-12 group-hover:scale-125 transition-all duration:500"></div>
+    </div>
+    <div class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden md:col-start-2 group relative hover:scale-90 transition-all duration:500">
+        <div class="w-full h-full bg-[url('/public/img/grid/6.jpeg')] bg-center bg-cover absolute group-hover:rotate-12 group-hover:scale-125 transition-all duration:500"></div>
+    </div>
+    <div class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] md:col-start-4 overflow-hidden group relative hover:scale-90 transition-all duration:500">
+        <div class="w-full h-full bg-[url('/public/img/grid/7.jpeg')] bg-center bg-cover absolute group-hover:rotate-12 group-hover:scale-125 transition-all duration:500"></div>
+    </div>
+    <div class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden group relative hover:scale-90 transition-all duration:500">
+        <div class="w-full h-full bg-[url('/public/img/grid/8.jpeg')] bg-center bg-cover absolute group-hover:rotate-12 group-hover:scale-125 transition-all duration:500"></div>
+    </div>
+    <div class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden md:col-start-3 group relative hover:scale-90 transition-all duration:500">
+        <div class="w-full h-full bg-[url('/public/img/grid/9.jpeg')] bg-center bg-cover absolute group-hover:rotate-12 group-hover:scale-125 transition-all duration:500"></div>
+    </div>
+    <div class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden md:col-start-3 md:row-start-5 group relative hover:scale-90 transition-all duration:500">
+        <div class="w-full h-full bg-[url('/public/img/grid/10.jpeg')] bg-center bg-cover absolute group-hover:rotate-12 group-hover:scale-125 transition-all duration:500"></div>
+    </div>
+    
+</div>
+
 <a href="#" class="bg-sky-400 rounded-full right-5 bottom-5 flex fixed w-10 h-10"><span class="text-xl m-auto">🔝</span></a>
+
 <div class="mb-20"></div>
 
     <script>
